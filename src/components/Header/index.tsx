@@ -4,7 +4,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import styles from './styles.module.scss';
 
 export function Header() {
-    const correntDate = format(new Date(), 'EEEEEE, d MMMM' { 
+    const correntDate = format(new Date(), 'EEEEEE, d MMMM', { 
     locale: ptBR, 
 });
     return(
